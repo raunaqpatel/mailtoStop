@@ -6,14 +6,14 @@
     "permissions": [
         "activeTab",
         "<all_urls>",
-        "storage"
+        "storage",
+        "notifications"
     ],
 
     "background": {
         "scripts": [
             "background.js"
-        ],
-        "persistent": false
+        ]
     },
 
     "content_scripts": [{
