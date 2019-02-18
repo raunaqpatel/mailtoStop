@@ -1,0 +1,33 @@
+{
+    "name": "mailtoStop",
+    "version": "1.0",
+    "description": "Stop the default popup behaviour of mailto links and copy them instead to clipboard",
+    "manifest_version": 2,
+    "permissions": [
+        "activeTab",
+        "<all_urls>",
+        "storage"
+    ],
+
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+
+    "content_scripts": [{
+        "matches": [
+            "<all_urls>"
+        ],
+        "js": [
+            "popup.js"
+        ],
+        "all_frames": true
+    }],
+
+    "browser_action": {
+        "default_popup": "popup.html"
+    }
+
+}
