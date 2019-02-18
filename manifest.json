@@ -21,6 +21,7 @@
             "<all_urls>"
         ],
         "js": [
+            "jquery-3.3.1.min.js",
             "popup.js"
         ],
         "all_frames": true
