@@ -22,7 +22,8 @@
         ],
         "js": [
             "jquery-3.3.1.min.js",
-            "popup.js"
+            "popup.js",
+            "page.js"
         ],
         "all_frames": true
     }],
