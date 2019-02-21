@@ -7,4 +7,7 @@ This extension will save all the emails that you click by doing the following
 2. Then it will store that email in you local storage of chrome. Where you can access it later.
 3. The link will be copied to clipboard before it will be saved :)
 
+
+
+
 Icon Credit: Email by i cons from the Noun Project
