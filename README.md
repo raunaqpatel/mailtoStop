@@ -1,5 +1,6 @@
 # mailtoStop
 [Read the Medium Article](https://medium.com/@raunaqpatel/how-to-develop-a-chrome-extension-to-stop-those-annoying-mailto-link-popups-3d89e8a07b19)
+
 A chrome extension to stop the annoying behaviour of Mailto Links pop ups of email clients. 
 This extension will save all the emails that you click by doing the following
 1. When you click on a link with "mailto:" attribute, it will stop the popup.
