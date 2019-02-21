@@ -7,14 +7,14 @@ chrome.extension.onMessage.addListener(
                 type: "basic",
                 title: "Email Copied",
                 message: "Copied :" + request.msg + " to clipboard",
-                iconUrl: '/images/img32.png'
+                iconUrl: '/images/logo32.png'
             };
             chrome.notifications.create(opt);
 
 
             saveChanges(request.msg, request.msg);
             sendResponse({
-                returnMsg: "All good!"
+                returnMsg: "Notification Sent"
             }); // optional response
         }
         if (request.type == "sendData") {
